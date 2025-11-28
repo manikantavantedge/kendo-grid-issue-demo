@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "npx kendo-license activate"
   },
   "prettier": {
     "printWidth": 100,
@@ -26,8 +27,13 @@
     "@angular/compiler": "^20.2.0",
     "@angular/core": "^20.2.0",
     "@angular/forms": "^20.2.0",
+    "@angular/localize": "^20.3.14",
     "@angular/platform-browser": "^20.2.0",
     "@angular/router": "^20.2.0",
+    "@progress/kendo-angular-common": "^20.1.1",
+    "@progress/kendo-angular-grid": "^20.1.1",
+    "@progress/kendo-angular-l10n": "^20.1.1",
+    "@progress/kendo-theme-default": "^6.7.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
@@ -36,6 +42,7 @@
     "@angular/build": "^20.2.0",
     "@angular/cli": "^20.2.0",
     "@angular/compiler-cli": "^20.2.0",
+    "@progress/kendo-licensing": "^1.7.2",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.9.0",
     "karma": "~6.4.0",
